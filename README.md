@@ -1,6 +1,6 @@
 ## What is chromesoul?
 
-Chromesoul is a minimalist NetSoul client for Google Chrome. It intend to connect to the NetSoul server and stay active, but does not provide all the functionalities you can expect from a real client.
+Chromesoul is a minimalist NetSoul client for Google Chrome. It aim to connect to the NetSoul server and stay active, but does not provide all the functionalities you can expect from a real client.
 
 
 ## Why?
@@ -18,3 +18,8 @@ Because the only purpose of this extension is to provide an access to internet w
 
 ### Contacts
 If you cannot send and receive messages, you don't need a contact list.
+
+
+## Licence
+
+Chromesoul is released under an [ISC licence](http://en.wikipedia.org/wiki/ISC_license "ISC licence"). See the LICENCE.txt file for more details.
