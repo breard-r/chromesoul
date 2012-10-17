@@ -14,4 +14,7 @@ When you're on the PIE, you're stuck in it unless you are connected to netsoul, 
 Staying in an active state is the main purpose of this extension. It will be implemented as soon as possible.
 
 ### Messages
-Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are a secodn reasons why you won't see any message using chromesoul.
+Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul.
+
+### Contacts
+If you cannot send and receive messages, you don't need a contact list.
