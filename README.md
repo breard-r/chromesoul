@@ -28,3 +28,4 @@ If you cannot send and receive messages, you don't need a contact list.
 ## Licence
 
 Chromesoul is released under an [ISC licence](http://en.wikipedia.org/wiki/ISC_license "ISC licence"). See the LICENCE.txt file for more details.
+Chromesoul uses third-party free softwares which belongs to their respective owners. Such softwares are listed in the CREDITS.md file.
