@@ -5,7 +5,7 @@ Chromesoul is a minimalist NetSoul client for Google Chrome. It aim to connect t
 
 ## Why?
 
-When you're on the PIE, you're stuck in it unless you are connected to netsoul, and with multiple boot and mobile devices it's a real pain to configure many NetSoul clients. That's why chromesoul is awesome: not only it's a multi-platforme NS client, but with the Chrome extension synchronisation it's automaticaly installed.
+When you're on the PIE, you're stuck in it unless you are connected to netsoul, and with multiple boot and mobile devices it's a real pain to configure many NetSoul clients. That's why chromesoul is awesome: not only it's a cross-platform NS client, but with the Chrome synchronisation it's automaticaly installed and configured.
 
 
 ## Requirements
@@ -15,17 +15,17 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 
 ## Features
 
-### Active state
-Staying in an active state is the main purpose of this extension. It will be implemented as soon as possible.
-
 ### Password encryption
-Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is not secured; so is the official NetSoul server which doesn't store a hash but the password itself (it's a requirement from the NetSoul protocol).
+Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is unsafe; so is the official NetSoul server which doesn't store a hash but the password itself (it's a requirement from the NetSoul protocol).
 
 ### Messages
-Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul.
+Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul. Maybe one day I'll write a chat interface, however it will be unobtrusive.
 
 ### Contacts
 If you cannot send and receive messages, you don't need a contact list.
+
+### State change
+Same as contacts. Why changing your state if you're not gonna talk?
 
 
 ## Licence
