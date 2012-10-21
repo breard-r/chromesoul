@@ -28,6 +28,45 @@ If you cannot send and receive messages, you don't need a contact list.
 Same as contacts. Why changing your state if you're not gonna talk?
 
 
+## FAQ
+
+### How do I install this extension?
+Because it's not packaged yet, you have to:
+* Download it
+* Use the developer mode
+* Click on "Load unpackaged extension..." and select the chromesoul directory
+
+### Will you package it?
+Yes, as soon as sockets are supported in the stable channel.
+
+### Where do I enter my login and password?
+Why haven't you already looked at the extension's options? Yes, it's there.
+
+### Could not load extension from '/path/to/chromesoul'. Invalid value for 'permissions[2]'.
+It seems your browser doesn't support sockets. Have you checked the requirements?
+
+### Do I really have to compile the version from dev channel?
+No, you can wait until it comes to stable.
+
+### Where do I send and receive messages?
+Please have a look at the features lists.
+
+### Will you ever support sending and receiving messages?
+Maybe. If someone pay me I will, otherwise I'll do it if have time to invest in this project. Notice: I accept beer as payment .
+
+### I talked to you on netsoul but you never reply!
+I started this project for my personal usage, which means I use it. Now look at the features list and the previous questions.
+
+### I found a bug!
+Hum, please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
+
+### I hate chromesoul!
+It's your opinion and I don't care about it.
+
+### I love chromesoul!
+I'm happy you like it :-)
+
+
 ## Licence
 
 Chromesoul is released under an [ISC licence](http://en.wikipedia.org/wiki/ISC_license "ISC licence"). See the LICENCE.txt file for more details.
