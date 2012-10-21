@@ -8,6 +8,11 @@ Chromesoul is a minimalist NetSoul client for Google Chrome. It aim to connect t
 When you're on the PIE, you're stuck in it unless you are connected to netsoul, and with multiple boot and mobile devices it's a real pain to configure many NetSoul clients. That's why chromesoul is awesome: not only it's a multi-platforme NS client, but with the Chrome extension synchronisation it's automaticaly installed.
 
 
+## Requirements
+
+Sockets have been introduced in Chromium 24. Therefore, it is required to have a web-browser based on Chromium 24 or newer. At the time of writing, it's available on the [dev early release channel](http://www.chromium.org/getting-involved/dev-channel). For more informations, please refer to the [Chromium development calendar and release info](http://dev.chromium.org/developers/calendar).
+
+
 ## Features
 
 ### Active state
