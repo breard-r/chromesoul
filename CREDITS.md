@@ -17,3 +17,8 @@
 * Andrew Kepert
 * Ydnar
 * Lostinet
+
+
+## [String/ArrayBuffer conversion](http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-String)
+
+* Renato Mangini
