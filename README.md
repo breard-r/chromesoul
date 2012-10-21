@@ -18,6 +18,9 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 ### Active state
 Staying in an active state is the main purpose of this extension. It will be implemented as soon as possible.
 
+### Password encryption
+Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is not secured; so is the official NetSoul server which doesn't store a hash but the password itself (it's a requirement from the NetSoul protocol).
+
 ### Messages
 Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul.
 
