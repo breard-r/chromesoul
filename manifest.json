@@ -3,6 +3,7 @@
     "version": "0.1.1",
     "manifest_version": 2,
     "description": "A minimalist NetSoul client.",
+    "options_page": "options.html",
     "app": {
 	"background": {
 	    "scripts": ["third-party/md5-min.js",
@@ -12,6 +13,8 @@
 	}
     },
     "permissions": [
+	"background",
+	"storage",
 	{"socket": ["tcp-connect:ns-server.epita.fr:4242"]}
     ]
 }
