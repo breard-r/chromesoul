@@ -2,6 +2,10 @@
 
 * Rodolphe Breard
 
+### Special thanks
+
+* Patrick Marie aka mycroft for his documentation about the NetSoul protocol
+
 
 ## [JSHash (JavaScript MD5)](http://pajhome.org.uk/crypt/md5)
 
