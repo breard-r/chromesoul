@@ -48,6 +48,9 @@ It seems your browser doesn't support sockets. Have you checked the requirements
 ### Do I really have to compile the version from dev channel?
 No, you can wait until it comes to stable.
 
+### Chromesoul isn't an extension but a packaged app!
+Yes, you're right. Chromesoul should be an extension, but sockets can be used in apps only.
+
 ### Where do I send and receive messages?
 Please have a look at the features lists.
 
