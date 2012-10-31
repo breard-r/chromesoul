@@ -42,6 +42,15 @@ Yes, as soon as sockets are supported in the stable channel.
 ### Where do I enter my login and password?
 Why haven't you already looked at the extension's options? Yes, it's there.
 
+## The option pages doesn't work!
+It used to work, but for unknown reason it doesn't anymore. Such things may happened on the dev channel, however I'll try to fix it.
+
+### Why chromesoul doesn't start with chrome?
+This is a known issue, I'm working on it. Sockets aren't available for extensions, packaged app cannot define custom background pages and hosted app isn't a solution.
+
+## How do I start chromesoul?
+In the extension pannel, click on the link "_generated_background_page.html" within the "Inspect views" section.
+
 ### Could not load extension from '/path/to/chromesoul'. Invalid value for 'permissions[2]'.
 It seems your browser doesn't support sockets. Have you checked the requirements?
 
