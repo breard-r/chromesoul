@@ -2,6 +2,7 @@
     "name": "chromesoul",
     "version": "0.1.1",
     "manifest_version": 2,
+    "offline_enabled": false,
     "description": "A minimalist NetSoul client.",
     "options_page": "options.html",
     "app": {
