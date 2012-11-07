@@ -16,7 +16,7 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 ## Features
 
 ### Password encryption
-Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is unsafe; so is the official NetSoul server which doesn't store a hash but the password itself (it's a requirement from the NetSoul protocol).
+Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is unsafe; so is the official NetSoul server which doesn't store a hash but the password itself (it's required by the NetSoul protocol).
 
 ### Messages
 Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul. Maybe one day I'll write a chat interface, however it will be unobtrusive.
@@ -39,17 +39,11 @@ Because it's not packaged yet, you have to:
 ### Will you package it?
 Yes, as soon as sockets are supported in the stable channel.
 
-### Where do I enter my login and password?
-Why haven't you already looked at the extension's options? Yes, it's there.
-
-## The option pages doesn't work!
-It used to work, but for unknown reason it doesn't anymore. Such things may happened on the dev channel, however I'll try to fix it.
-
-### Why chromesoul doesn't start with chrome?
-This is a known issue, I'm working on it. Sockets aren't available for extensions, packaged app cannot define custom background pages and hosted app isn't a solution.
-
-## How do I start chromesoul?
-In the extension pannel, click on the link "_generated_background_page.html" within the "Inspect views" section.
+### How do I start chromesoul?
+Just like any other app:
+* open a new tab (Ctrl + T)
+* click on the "apps" tab (have a look at the bottom of the page)
+* click on "chromesoul"
 
 ### Could not load extension from '/path/to/chromesoul'. Invalid value for 'permissions[2]'.
 It seems your browser doesn't support sockets. Have you checked the requirements?
@@ -69,7 +63,7 @@ Maybe. If someone pay me I will, otherwise I'll do it if have time to invest in 
 ### I talked to you on netsoul but you never reply!
 I started this project for my personal usage, which means I use it. Now look at the features list and the previous questions.
 
-### I found a bug!
+### I found a bug, what should I do?
 Hum, please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
 
 ### I hate chromesoul!

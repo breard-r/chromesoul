@@ -14,5 +14,9 @@
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
 
-var cs = new NsClient();
-cs.init();
+chrome.app.runtime.onLaunched.addListener(function(intentData) {
+    //if (window.chrome && window.chrome.app && window.chrome.app.isInstalled) {
+    if (window.chrome && window.chrome.app) {
+	window.open("background.html#0", "bg", "background");
+    }
+});

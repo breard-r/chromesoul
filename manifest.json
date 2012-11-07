@@ -1,17 +1,12 @@
 {
     "name": "chromesoul",
-    "version": "0.1.1",
+    "version": "0.2.1",
     "manifest_version": 2,
     "offline_enabled": false,
     "description": "A minimalist NetSoul client.",
-    "options_page": "options.html",
     "app": {
 	"background": {
-	    "scripts": ["third-party/md5-min.js",
-			"third-party/ab-str.js",
-			"lib/ns_client.js",
-			"background.js"
-		       ]
+	    "scripts": ["background.js"]
 	}
     },
     "permissions": [
