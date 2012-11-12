@@ -19,7 +19,7 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is unsafe; so is the official NetSoul server which doesn't store a hash but the password itself (it's required by the NetSoul protocol).
 
 ### Messages
-Because the only purpose of this extension is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul. Maybe one day I'll write a chat interface. Since version 0.2, chromesoul have a dedicated window and is more likely to integrate a chat interface.
+Because the only purpose of this app is to provide an access to internet when you're on the PIE, there is no plan to support messages at this time. Thoses stupid guys who have fun spamming everyone by broadcasting messages are the second reasons why you won't see any message using chromesoul. Maybe one day I'll write a chat interface. Since version 0.2, chromesoul have a dedicated window and is more likely to integrate a chat interface.
 
 ### Contacts
 If you cannot send and receive messages, you don't need a contact list.
@@ -30,7 +30,7 @@ Same as contacts. Why changing your state if you're not gonna talk?
 
 ## FAQ
 
-### How do I install this extension?
+### How do I install this app?
 Because it's not packaged yet, you have to:
 * Download it
 * Use the developer mode
@@ -50,9 +50,6 @@ It seems your browser doesn't support sockets. Have you checked the requirements
 
 ### Do I really have to compile the version from dev channel?
 No, you can wait until it comes to stable.
-
-### Chromesoul isn't an extension but a packaged app!
-Yes, you're right. Chromesoul should be an extension, but sockets can be used in apps only.
 
 ### Where do I send and receive messages?
 Please have a look at the features lists.
