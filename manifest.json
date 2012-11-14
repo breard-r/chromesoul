@@ -7,7 +7,7 @@
     "description": "A minimalist NetSoul client.",
     "app": {
 	"background": {
-	    "scripts": ["background.js"]
+	    "scripts": ["chromesoul.js"]
 	}
     },
     "permissions": [

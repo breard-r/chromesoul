@@ -17,6 +17,6 @@
 chrome.app.runtime.onLaunched.addListener(function(intentData) {
     //if (window.chrome && window.chrome.app && window.chrome.app.isInstalled) {
     if (window.chrome && window.chrome.app) {
-	window.open("background.html#0", "bg", "background");
+	window.open("chromesoul.html#0", "bg", "background");
     }
 });
