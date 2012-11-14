@@ -53,6 +53,10 @@
     outline: 1px solid #aaa;
 }
 
+.chat-msg:focus {
+    outline-offset: 0;
+}
+
 .capitalize {
     text-transform: capitalize;
 }
