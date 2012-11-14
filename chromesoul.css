@@ -1,0 +1,58 @@
+#tab-lst {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tab-lst > li {
+    display: inline;
+    margin: 0;
+    padding: 2px 20px 2px 20px;
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-radius: 8px 8px 0 0;
+    color: #aaa;
+}
+
+#tab-lst > li:first-child {
+    border-left: 1px solid #aaa;
+}
+
+#tab-lst > li.tab-current {
+    color: black;
+}
+
+#tab-lst > li.tab-active {
+    color: red;
+}
+
+#tab-body-wrapper {
+    margin: 1px 0 5px 0;
+    padding: 0;
+    border: 1px solid #aaa;
+}
+
+.tab-body {
+    margin: 5px;
+}
+
+.chat-log {
+    margin: 0;
+    padding: 5px;
+    height: 268px;
+    outline: 1px solid #aaa;
+    overflow-y: scroll;
+}
+
+.chat-msg {
+    margin: 5px 0 0 0;
+    padding: 0;
+    height: 20px;
+    width: 100%;
+    border-style: none;
+    outline: 1px solid #aaa;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

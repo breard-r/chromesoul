@@ -3,23 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <title>Chromesoul</title>
+    <link rel="stylesheet" type="text/css" media="all" href="chromesoul.css">
   </head>
   <body>
     <h1>Welcome to chromesoul</h1>
-    <fieldset>
-      <legend>Configuration</legend>
-      Login: <input type="text" id="login" class="opt"><br>
-      Password (socks): <input type="password" id="pwd_socks" class="opt"><br>
-      Enable messages: <input type="checkbox" id="enable_msg" class="opt" checked="checked"><br>
-      <button id="save">Save</button> <span id="status"></span>
-    </fieldset>
-    <p>Status: <span id="status_txt"></span></p>
-    <div><button id="reconnect">Reconnect</button></div>
+
+    <ul id="tab-lst">
+      <li class="tab-current capitalize">configuration</li>
+    </ul>
+    <div id="tab-body-wrapper">
+      <div id="configuration" class="tab-body">
+	Login: <input type="text" id="login" class="opt"><br>
+	Password (socks): <input type="password" id="pwd_socks" class="opt"><br>
+	Enable messages: <input type="checkbox" id="enable_msg" class="opt" checked="checked"><br>
+	<button id="save">Save</button> <span id="status"></span>
+      </div>
+    </div>
+
+    <p>
+      Status: <span id="status_txt"></span><br>
+      <button id="reconnect">Reconnect</button>
+    </p>
 
     <script type="text/javascript" src="third-party/md5-min.js"></script>
     <script type="text/javascript" src="third-party/ab-str.js"></script>
     <script type="text/javascript" src="lib/ns_client.js"></script>
     <script type="text/javascript" src="lib/options.js"></script>
+    <script type="text/javascript" src="lib/nsui.js"></script>
     <script type="text/javascript" src="start.js"></script>
   </body>
 </html>

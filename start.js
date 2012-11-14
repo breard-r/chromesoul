@@ -1,6 +1,9 @@
-var cs = new NsClient();
+var ui = new Nsui(),
+    cs = new NsClient();
+
+ui.init();
 cs.init();
-document.getElementById('reconnect').addEventListener('click', function() {
+ui.setReconnect(function() {
     cs.disconnect();
     cs.connect();
-}, false);
+});
