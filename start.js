@@ -1,16 +1,17 @@
-var om, ui, cs;
+(function() {
+    var om, ui, cs;
 
+    om = new OptionsManager();
+    om.init();
 
-om = new OptionsManager();
-om.init();
+    ui = new Nsui();
+    ui.init();
 
-ui = new Nsui();
-ui.init();
+    cs = new NsClient();
+    cs.init();
 
-cs = new NsClient();
-cs.init();
-
-ui.setReconnect(function() {
-    cs.disconnect();
-    cs.connect();
-});
+    ui.setReconnect(function() {
+	cs.disconnect();
+	cs.connect();
+    });
+})();

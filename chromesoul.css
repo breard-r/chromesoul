@@ -79,3 +79,11 @@
 #tab-config > span {
     display: none;
 }
+
+.spk-oth {
+    color: red;
+}
+
+.spk-me {
+    color: blue;
+}

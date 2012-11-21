@@ -1,6 +1,6 @@
 {
     "name": "chromesoul",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "minimum_chrome_version": "24",
     "manifest_version": 2,
     "offline_enabled": false,
