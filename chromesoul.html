@@ -8,22 +8,30 @@
   <body>
     <h1>Welcome to chromesoul</h1>
 
-    <ul id="tab-lst">
-      <li id="tab-config"><span>configuration</span></li>
-    </ul>
-    <div id="tab-body-wrapper">
-      <div id="configuration" class="tab-body">
-	Login: <input type="text" id="login" class="opt"><br>
-	Password (socks): <input type="password" id="pwd_socks" class="opt"><br>
-	Enable messages: <input type="checkbox" id="enable_msg" class="opt" checked="checked"><br>
-	<button id="save">Save</button> <span id="status"></span>
-      </div>
-    </div>
-
     <p>
       Status: <span id="status_txt"></span><br>
       <button id="reconnect">Reconnect</button>
     </p>
+
+    <div id="l-lst">
+      <h2>Contacts</h2>
+      <input type="text" id="add-contact" placeholder="New contact">
+      <ul id="contact-lst"></ul>
+    </div>
+
+    <div id="r-lst">
+      <ul id="tab-lst">
+	<li id="tab-config"><span>configuration</span></li>
+      </ul>
+      <div id="tab-body-wrapper">
+	<div id="configuration" class="tab-body">
+	  Login: <input type="text" id="login" class="opt"><br>
+	  Password (socks): <input type="password" id="pwd_socks" class="opt"><br>
+	  Enable messages: <input type="checkbox" id="enable_msg" class="opt" checked="checked"><br>
+	  <button id="save">Save</button> <span id="status"></span>
+	</div>
+      </div>
+    </div>
 
     <script type="text/javascript" src="third-party/md5-min.js"></script>
     <script type="text/javascript" src="third-party/ab-str.js"></script>
