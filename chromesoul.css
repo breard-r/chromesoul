@@ -121,3 +121,10 @@
 .spk-me {
     color: blue;
 }
+
+.remove {
+    float: right;
+    font-family: sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
