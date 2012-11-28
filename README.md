@@ -15,9 +15,6 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 
 ## Features
 
-### Password encryption
-Storing your socks password encrypted is a priority but is not available yet. Yes, the chromesoul dev version is unsafe; so is the official NetSoul server which doesn't store a hash but the password itself (it's required by the NetSoul protocol).
-
 ### Messages
 At first, chromesoul's was only intended to provide an access to internet from the PIE and didn't supported messages. However, I changed my mind and decided to include this feature. Don't panic if you don't want to be disturbed, it's possible to turn it off. All you have to do is to go in your settings and uncheck the little box.
 
@@ -44,6 +41,9 @@ Just like any other app:
 
 ### Do I really have to compile the version from beta channel?
 No, you can wait until it comes to stable.
+
+### Are my data stored encrypted?
+By default it's not encrypted, that's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every application you uses.
 
 ### I found a bug, what should I do?
 Please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
