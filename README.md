@@ -10,7 +10,7 @@ When you're on the PIE, you're stuck in it unless you are connected to netsoul. 
 
 ## Requirements
 
-Sockets have been introduced in Chromium 24. Therefore, it is required to have a web-browser based on Chromium 24 or newer. At the time of writing, it's available on the [beta channel](http://www.chromium.org/getting-involved/dev-channel). For more informations, please refer to the [Chromium development calendar and release info](http://dev.chromium.org/developers/calendar).
+Sockets have been introduced in Chromium 24. Therefore, it is required to have a web-browser based on Chromium 24 or newer.
 
 
 ## Features
@@ -31,16 +31,13 @@ Because it's not packaged yet, you have to:
 * Click on "Load unpackaged extension..." and select the chromesoul directory
 
 ### Will you package it?
-Yes, as soon as sockets are supported in the stable channel.
+Yes, as soon as possible.
 
 ### How do I start chromesoul?
 Just like any other app:
 * open a new tab (Ctrl + T)
 * click on the "apps" tab (have a look at the bottom of the page)
 * click on "chromesoul"
-
-### Do I really have to compile the version from beta channel?
-No, you can wait until it comes to stable.
 
 ### Are my data stored encrypted?
 By default it's not encrypted, that's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every application you uses.
