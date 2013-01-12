@@ -8,11 +8,6 @@
 * Patrick Marie aka mycroft for his documentation about the NetSoul protocol
 
 
-## [Gnome 2.18 icon theme](http://art.gnome.org/themes/icon)
-
-* AMAZIGH Aneglus
-
-
 ## [JSHash (JavaScript MD5)](http://pajhome.org.uk/crypt/md5)
 
 * Paul Johnston
