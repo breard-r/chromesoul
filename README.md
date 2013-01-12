@@ -21,6 +21,12 @@ At first, chromesoul's was only intended to provide an access to internet from t
 ### State change
 It's on it's way.
 
+### Desktop notifications
+Not yet, but soon. Yes, you'll be able to deactivate it.
+
+### File transfer
+Maybe later.
+
 
 ## FAQ
 
@@ -30,17 +36,20 @@ Because it's not packaged yet, you have to:
 * Use the developer mode
 * Click on "Load unpackaged extension..." and select the chromesoul directory
 
-### Will you package it?
+### Will it be available in the webstore?
 Yes, as soon as possible.
 
 ### How do I start chromesoul?
 Just like any other app:
 * open a new tab (Ctrl + T)
-* click on the "apps" tab (have a look at the bottom of the page)
+* click on the "apps" tab if necessary (have a look at the bottom of the page)
 * click on "chromesoul"
 
 ### Are my data stored encrypted?
 By default it's not encrypted, that's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every application you uses.
+
+### Are you telling me my password could be shared unencrypted?
+No. Being a very sensitive data, the password isn't shared: that's the only thing you'll have to set yourself along all your chrome installations.
 
 ### I found a bug, what should I do?
 Please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
