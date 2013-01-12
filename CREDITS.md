@@ -1,6 +1,7 @@
 ## [Chromesoul](https://github.com/TychoBrahe/chromesoul)
 
-* Rodolphe Breard
+* Rodolphe Breard (development)
+* Romain Mardargent (design)
 
 ### Special thanks
 

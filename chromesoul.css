@@ -1,18 +1,50 @@
-#l-lst {
+/*
+ * Page itself
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #347db0 url(img/chromesoul-logo.png) no-repeat 10px 10px;
+}
+
+/*
+ * Top menu
+ */
+
+#user-status {
+    position: fixed;
+    right: 285px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+#settings-btn {
+    position: fixed;
+    right: 222px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Contact list
+ */
+
+#contact-lst-wrapper {
     position: fixed;
     right: 0;
     top: 0;
+    margin: 0;
     padding: 0 5px 0 5px;
     width: 200px;
     height: 100%;
     border-left: 1px solid #aaa;
-}
-
-#l-lst > h2 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 1em;
+    background-color: #e4e4e4;
+    box-shadow: 0px 0px 10px #666;
+    overflow-y: scroll;
 }
 
 #contact-lst {
@@ -23,14 +55,52 @@
 
 #contact-lst > li {
     margin: 5px 0 0 0;
-    padding: 5px;
+    padding: 5px 5px 5px 28px;
     border: 1px solid #aaa;
+    background-size: 23px 26px;
+    background-repeat: no-repeat;
 }
 
-#r-lst {
-    padding-right: 210px;
+#add-contact::-webkit-input-placeholder {
+    color: rgba(52, 125, 176, 0.42);
+}
+
+#add-contact {
+    padding: 2px;
+    outline: 0px solid #aaa;
+    width: 184px;
+    height: 20px;
+    margin: 5px 0 0 0;
+}
+
+#add-contact, #contact-lst > li {
+    box-shadow: inset 0px 0px 1px #666;
+    background-color: #f3f3f3;
+    border: 1px solid #347db0;
+    color: #347db0;
+    font-family: monospace;
+}
+
+.remove {
+    float: right;
+    font-family: sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/*
+ * Main content
+ */
+
+#main-ctn {
+    margin: 135px 0 0 0;
+    padding: 10px 220px 10px 10px;
     min-width: 400px;
 }
+
+/*
+ * Tabs
+ */
 
 #tab-lst {
     margin: 0;
@@ -75,6 +145,10 @@
     margin: 5px;
 }
 
+/*
+ * Chat
+ */
+
 .chat-log {
     margin: 0;
     padding: 2px 5px 2px 0;
@@ -84,36 +158,21 @@
     font-family: monospace;
 }
 
-#add-contact, .chat-input {
-    padding: 0;
-    border-style: none;
-    outline: 1px solid #aaa;
+
+.chat-input-wrapper {
+    padding-right: 2px;
+}
+
+.chat-input {
+    padding: 0px;
+    outline: 0px solid #aaa;
     width: 100%;
     height: 20px;
     margin: 5px 0 0 0;
 }
 
-#add-contact:focus, .chat-input:focus {
+.chat-input:focus {
     outline-offset: 0;
-}
-
-.chat-input-wrapper {
-    background-image: url('img/user-offline.png');
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    padding-left: 24px;
-}
-
-#tab-lst > #tab-config {
-    background-image: url('img/preferences.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-#tab-config > span {
-    display: none;
 }
 
 .spk-oth {
@@ -124,9 +183,23 @@
     color: blue;
 }
 
-.remove {
-    float: right;
-    font-family: sans-serif;
-    font-size: 12px;
-    cursor: pointer;
+/*
+ * Scrollbar
+ */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color: #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 40px;
+    background-color: #347db0;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
 }
