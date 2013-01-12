@@ -63,5 +63,6 @@ I'm happy you like it :-)
 
 ## Licence
 
-Chromesoul is released under an [ISC licence](http://en.wikipedia.org/wiki/ISC_license "ISC licence"). See the LICENCE.txt file for more details.
-Chromesoul uses third-party free softwares which belongs to their respective owners. Such softwares are listed in the CREDITS.md file.
+Chromesoul is released under an [ISC licence](http://en.wikipedia.org/wiki/ISC_license "ISC licence"). See the [LICENCE.txt](https://github.com/TychoBrahe/chromesoul/blob/master/LICENCE.txt) file for more details.
+
+Chromesoul uses third-party free softwares which belongs to their respective owners. Such softwares and its authors are listed in the [CREDITS.md](https://github.com/TychoBrahe/chromesoul/blob/master/CREDITS.md) file.
