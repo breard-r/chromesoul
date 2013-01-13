@@ -18,11 +18,11 @@ Sockets have been introduced in Chromium 24. Therefore, it is required to have a
 ### Messages
 At first, chromesoul's was only intended to provide an access to internet from the PIE and didn't supported messages. However, I changed my mind and decided to include this feature. Don't panic if you don't want to be disturbed, it's possible to turn it off. All you have to do is to go in your settings and uncheck the little box.
 
+### Desktop notifications
+There's a few bugs with avatars, however it works.
+
 ### State change
 It's on it's way.
-
-### Desktop notifications
-Not yet, but soon. Yes, you'll be able to deactivate it.
 
 ### File transfer
 Maybe later.
