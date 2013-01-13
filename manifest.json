@@ -1,10 +1,13 @@
 {
-    "name": "chromesoul",
+    "name": "Chromesoul",
     "version": "0.4.2",
     "minimum_chrome_version": "24",
     "manifest_version": 2,
     "offline_enabled": false,
-    "description": "A minimalist NetSoul client.",
+    "description": "Netsoul client for Google Chrome.",
+    "icons": { 
+	"128": "icon_128.png" 
+    },
     "app": {
 	"background": {
 	    "scripts": ["chromesoul.js"]
