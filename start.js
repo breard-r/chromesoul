@@ -3,7 +3,8 @@ var chromesoul = (function() {
 	"opts": new OptionsManager(),
 	"ui": new Nsui(),
 	"contacts": new ContactList(),
-	"client": new NsClient()
+	"client": new NsClient(),
+	"avatars": new AvatarManager()
     };
 
     return (window.chromesoul = window.$cs = chromesoul);

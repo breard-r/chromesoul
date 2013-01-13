@@ -1,6 +1,6 @@
 {
     "name": "Chromesoul",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "minimum_chrome_version": "24",
     "manifest_version": 2,
     "offline_enabled": false,
@@ -17,6 +17,7 @@
 	"http://www.epitech.eu/intra/photos/",
 	"background",
 	"storage",
+	"notifications",
 	{"socket": ["tcp-connect:ns-server.epita.fr:4242"]}
     ]
 }
