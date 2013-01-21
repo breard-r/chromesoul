@@ -14,7 +14,7 @@ body {
 
 #user-status {
     position: fixed;
-    right: 285px;
+    right: 155px;
     top: 10px;
     margin: 0;
     padding: 0;
@@ -27,6 +27,10 @@ body {
     top: 10px;
     margin: 0;
     padding: 0;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 /*
