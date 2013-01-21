@@ -45,11 +45,11 @@ Just like any other app:
 * click on the "apps" tab if necessary (have a look at the bottom of the page)
 * click on "chromesoul"
 
-### Are my data stored encrypted?
-By default it's not encrypted, that's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every application you uses.
+### Why do I have to enter my password on every different chrome? Isn't it shared?
+Being a very sensitive data, the password isn't shared: that's the only thing you'll have to set yourself along all your chrome installations.
 
-### Are you telling me my password could be shared unencrypted?
-No. Being a very sensitive data, the password isn't shared: that's the only thing you'll have to set yourself along all your chrome installations.
+### Are my data stored encrypted?
+By default, no. That's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every single application you uses.
 
 ### I found a bug, what should I do?
 Please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
