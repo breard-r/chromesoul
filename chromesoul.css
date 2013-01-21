@@ -102,6 +102,36 @@ body {
     min-width: 400px;
 }
 
+#main-ctn > * {
+    padding: 10px;
+}
+
+/*
+ * Config
+ */
+
+#config-pannel {
+    background-color: #e4e4e4;
+}
+
+#config-pannel > input[type=text], #config-pannel > input[type=password] {
+    width: 130px;
+    padding: 5px;
+    border: 1px solid #347db0;
+    outline-style: none;
+    background-color: #f3f3f3;
+}
+
+#save {
+    margin: 0;
+    padding: 5px;
+    width: 140px;
+    height: 30px;
+    border-style: none;
+    background-color: #347db0;
+    color: #f3f3f3;
+}
+
 /*
  * Tabs
  */
