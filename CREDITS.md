@@ -1,7 +1,7 @@
 ## [Chromesoul](https://github.com/TychoBrahe/chromesoul)
 
-* Rodolphe Breard (development)
-* Romain Mardargent (design)
+* [Rodolphe Breard](http://blog.uraniborg.net/) (development)
+* [Romain Mardargent](http://ro-maen.com/) (design)
 
 ### Special thanks
 
