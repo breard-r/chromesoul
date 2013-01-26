@@ -1,6 +1,6 @@
 ## What is chromesoul?
 
-Chromesoul is a minimalist NetSoul client for Google Chrome. If you don't know what NetSoul is, you probably don't need it. If you're neither a student nor an employee of any [IONIS](http://www.ionis-group.com/) school (eg: Epitech, Epita, …), all you have to know is that NetSoul is an internal messaging protocol for thoses schools.
+Chromesoul is a NetSoul client for Google Chrome. If you don't know what NetSoul is, you probably don't need it. If you're neither a student nor an employee of any [IONIS](http://www.ionis-group.com/) school (eg: Epitech, Epita, …), all you have to know is that NetSoul is an internal messaging protocol for thoses schools.
 
 
 ## Why?
@@ -31,13 +31,13 @@ Maybe later.
 ## FAQ
 
 ### How do I install this app?
-Because it's not packaged yet, you have to:
+Go to the [Chromesoul's Chrome Web Store page](https://chrome.google.com/webstore/detail/chromesoul/kfognoohapdknjapfhcmpaobigmemphe) and click the "Add to Chrome" button.
+
+### How do I install Chromesoul's git version?
+You should use the version from the Chrome Web Store, however, if you really wish to install the git version:
 * Download it (aka: clone the git repository)
 * Use the developer mode
 * Click on "Load unpackaged extension..." and select the chromesoul directory
-
-### Will it be available in the webstore?
-Yes, as soon as possible.
 
 ### How do I start chromesoul?
 Just like any other app:
