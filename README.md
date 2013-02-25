@@ -10,7 +10,7 @@ When you're on the PIE, you're stuck in it unless you are connected to netsoul. 
 
 ## Requirements
 
-Sockets have been introduced in Chromium 24. Therefore, it is required to have a web-browser based on Chromium 24 or newer.
+Chrome or Chromium 25.
 
 
 ## Features
