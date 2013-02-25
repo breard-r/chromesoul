@@ -14,9 +14,9 @@
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
 
-chrome.app.runtime.onLaunched.addListener(function(intentData) {
-    //if (window.chrome && window.chrome.app && window.chrome.app.isInstalled) {
-    if (window.chrome && window.chrome.app) {
-	window.open("chromesoul.html#0", "bg", "background");
-    }
+chrome.app.runtime.onLaunched.addListener(function() {
+  chrome.app.window.create('chromesoul.html', {
+    'width': 400,
+    'height': 500
+  });
 });
