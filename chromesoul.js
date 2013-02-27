@@ -1,22 +1,21 @@
-//
-// Copyright (c) 2012 Rodolphe Breard
-// 
-// Permission to use, copy, modify, and/or distribute this software for any
-// purpose with or without fee is hereby granted, provided that the above
-// copyright notice and this permission notice appear in all copies.
-// 
-// THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-// ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-// ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-// OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-//
+var chromesoul = (function() {
+    var chromesoul = {
+	"opts": new OptionsManager(),
+	"ui": new Nsui(),
+	"contacts": new ContactList(),
+	"client": new Client(),
+	"avatars": new AvatarManager()
+    };
 
-chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('chromesoul.html', {
-    'width': 400,
-    'height': 500
-  });
+    return (window.chromesoul = window.$cs = chromesoul);
+})();
+
+$cs.opts.init();
+$cs.ui.init();
+$cs.client.init(new NsClient(), $cs.ui);
+$cs.contacts.init();
+
+$cs.ui.setReconnect(function() {
+    $cs.client.disconnect();
+    $cs.client.connect();
 });

@@ -1,6 +1,6 @@
 {
     "name": "Chromesoul",
-    "version": "0.4.9",
+    "version": "0.5.0",
     "minimum_chrome_version": "25",
     "manifest_version": 2,
     "offline_enabled": false,
@@ -11,7 +11,7 @@
     },
     "app": {
 	"background": {
-	    "scripts": ["chromesoul.js"]
+	    "scripts": ["background.js"]
 	}
     },
     "permissions": [
