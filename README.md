@@ -36,16 +36,10 @@ Maybe later.
 ### How do I install this app?
 Go to the [Chromesoul's Chrome Web Store page](https://chrome.google.com/webstore/detail/chromesoul/kfognoohapdknjapfhcmpaobigmemphe) and click the "Add to Chrome" button.
 
-### How do I install Chromesoul's git version?
-You should use the version from the Chrome Web Store, however, if you really wish to install the git version:
-* Download it (aka: clone the git repository)
-* Use the developer mode
-* Click on "Load unpackaged extension..." and select the chromesoul directory
-
 ### How do I start chromesoul?
 Just like any other app:
 * open a new tab (Ctrl + T)
-* click on the "apps" tab if necessary (have a look at the bottom of the page)
+* if necessary, click on the "apps" tab (have a look at the bottom of the page)
 * click on "chromesoul"
 
 ### Why do I have to enter my password on every different chrome? Isn't it shared?
@@ -53,6 +47,20 @@ Being a very sensitive data, the password isn't shared: that's the only thing yo
 
 ### Are my data stored encrypted?
 By default, no. That's why you are strongly encouraged to configure Chrome to [encrypt all your synced data](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181035). Please note that it's true for every single application you uses.
+
+### Why is there no result when I search for Chromesoul on the Chrome Web Store?
+First, you have to know there's 3 different Chrome add-ons types:
+* extensions
+* hosted apps
+* packaged apps
+
+Chromesoul is a packaged app. Unfortunatly, packaged app arrived on the store recently and are not searchable yet. You can read the [official anouncement](https://groups.google.com/a/chromium.org/forum/?fromgroups=#!topic/chromium-apps/-XK720-2X9k) for more informations.
+
+### How do I install Chromesoul's git version?
+You should use the version from the Chrome Web Store, however, if you really wish to install the git version:
+* Download it (aka: clone the git repository)
+* Use the developer mode
+* Click on "Load unpackaged extension..." and select the chromesoul directory
 
 ### I found a bug, what should I do?
 Please [report it](https://github.com/TychoBrahe/chromesoul/issues) with as much details as you can. Thanks in advance.
