@@ -87,6 +87,10 @@ body {
     font-family: monospace;
 }
 
+#contact-lst > li > span {
+    padding-left: 5px;
+}
+
 .remove {
     float: right;
     font-family: sans-serif;

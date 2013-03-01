@@ -24,6 +24,9 @@ There's a few bugs with avatars, however it works.
 ### State change
 It's on it's way.
 
+### Contact's status
+A status indicator is available next to the contact's avatar.
+
 ### File transfer
 Maybe later.
 
