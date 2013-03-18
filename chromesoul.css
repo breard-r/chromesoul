@@ -104,9 +104,12 @@ body {
  */
 
 #main-ctn {
-    margin: 135px 0 0 0;
-    padding: 10px 235px 10px 20px;
-    min-width: 400px;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    padding: 10px;
+    width: calc(100% - 230px);
+    height: calc(100% - 155px);
 }
 
 #main-ctn > * {
@@ -118,6 +121,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #347db0;
+    height: 100%;
 }
 
 
@@ -186,11 +190,17 @@ body {
 #tab-body-wrapper {
     margin: 2px 1px;
     padding: 0;
+    height: calc(100% - 20px);
+}
+
+.tab-body {
+    height: calc(100% - 35px);
 }
 
 .chat-log {
     margin: 0;
-    height: 268px;
+    /* height: 268px; */
+    height: 100%;
     overflow-y: scroll;
     font-family: monospace;
     background-color: #e4e4e4;
