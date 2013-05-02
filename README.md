@@ -54,7 +54,7 @@ First, you have to know there's 3 different Chrome add-ons types:
 * hosted apps
 * packaged apps
 
-Chromesoul is a packaged app. Unfortunatly, packaged app arrived on the store recently and are not searchable yet. You can read the [official anouncement](https://groups.google.com/a/chromium.org/forum/?fromgroups=#!topic/chromium-apps/-XK720-2X9k) for more informations.
+Chromesoul is a packaged app. The bad news is that packaged app arrived recently on the store and are not searchable yet. The good news is that Google announced that packaged app are now [available in the Chrome Web Store for anyone on Chrome's developer channel](http://blog.chromium.org/2013/05/preview-new-chrome-packaged-apps.html). It should be a matters of weeks/month before everyone could search for Chromesoul on the web store.
 
 ### How do I install Chromesoul's git version?
 You should use the version from the Chrome Web Store, however, if you really wish to install the git version:
