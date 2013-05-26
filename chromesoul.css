@@ -161,14 +161,19 @@ body {
 }
 
 #tab-lst > li {
-    display: inline;
+    display: inline-block;
     margin: 0;
-    padding: 2px 20px 2px 20px;
+    padding: 2px 0px 2px 20px;
     color: #f3f3f3;
     cursor: pointer;
     background-color: #6c9ec0;
     border-bottom: 1px solid #347db0;
     border-left: 1px solid #347db0;
+}
+
+#tab-lst > li > span {
+    display: inline-block;
+    margin-right: 15px;
 }
 
 #tab-lst > li > span::selection {
@@ -184,13 +189,19 @@ body {
     color: #c43434;
 }
 
+.close-tab {
+    float: right;
+    margin: 3px 3px 0 0;
+    cursor: pointer;
+}
+
 
 /*
  * Chat
  */
 
 #tab-body-wrapper {
-    margin: 2px 1px;
+    margin: 0px 1px;
     padding: 0;
     height: calc(100% - 20px);
     height: -webkit-calc(100% - 20px);
