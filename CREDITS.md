@@ -8,18 +8,7 @@
 * Patrick Marie aka mycroft for his documentation about the NetSoul protocol
 
 
-## [JSHash (JavaScript MD5)](http://pajhome.org.uk/crypt/md5)
+## Third-party libraries/tools/snippets
 
-* Paul Johnston
-
-### Other contributors
-
-* Greg Holt
-* Andrew Kepert
-* Ydnar
-* Lostinet
-
-
-## [String/ArrayBuffer conversion](http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-String)
-
-* Renato Mangini
+* [JSHash (JavaScript MD5)](http://pajhome.org.uk/crypt/md5)
+* [String/ArrayBuffer conversion](http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-String)
