@@ -19,7 +19,7 @@ Chrome or Chromium 25.
 At first, chromesoul's was only intended to provide an access to internet from the PIE and didn't supported messages. However, I changed my mind and decided to include this feature. Don't panic if you don't want to be disturbed, it's possible to turn it off. All you have to do is to go in your settings and uncheck the little box.
 
 ### Desktop notifications
-There's a few bugs with avatars, however it works.
+If you uses a version of Chrome which doesn't support [rich notifications](http://blog.chromium.org/2013/05/rich-notifications-in-chrome.html), you may experience some bugs with avatars.
 
 ### State change
 It's on it's way.
