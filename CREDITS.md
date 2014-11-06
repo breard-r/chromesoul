@@ -2,6 +2,7 @@
 
 * [Rodolphe Breard](http://blog.uraniborg.net/) (development)
 * [Romain Mardargent](http://ro-maen.com/) (design)
+* [SirBelga](https://github.com/SirBelga) (the mysterious merge-request guy who contributes to the code)
 
 ### Special thanks
 
