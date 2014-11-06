@@ -15,8 +15,8 @@
 //
 
 chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('chromesoul.html', {
-    'width': 800,
-    'height': 500
-  });
+    chrome.app.window.create('chromesoul.html', {
+        'width': 800,
+        'height': 500
+    });
 });
